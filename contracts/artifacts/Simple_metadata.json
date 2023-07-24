@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "mycity",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/simple.sol": "Simple"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/simple.sol": {
+			"keccak256": "0x46a80d83066434e4940ac66cf0eded6a8ea2d27de30d1ff760b3bb65cead8c93",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a2b2746b19d5ef0592bff3937e5e4f162ae82f3571f804f7c263409945cd9476",
+				"dweb:/ipfs/QmVkJpsrjKmw6yPGKXDpxM3bZpKN7vR42h2WEhBxVbvD5d"
+			]
+		}
+	},
+	"version": 1
+}

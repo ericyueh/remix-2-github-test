@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "updateNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StoreNumberTest.sol": "StoreNumberTest"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StoreNumberTest.sol": {
+			"keccak256": "0xed62758fc0e76707dcb0314c1a3c88d618f41c0ef73d54b6696e2dc4c37a86a5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://118f338b944319ed1cd1ccc16363be8af0ce0b94e19c3687cf576b3de69acec4",
+				"dweb:/ipfs/QmUCgsLykjFbnTbs5sLQm2GowpMjmSdsLxQ7wGbRvriQXW"
+			]
+		}
+	},
+	"version": 1
+}

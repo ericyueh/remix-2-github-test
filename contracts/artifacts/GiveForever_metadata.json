@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GiveForever.sol": "GiveForever"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GiveForever.sol": {
+			"keccak256": "0xc44b5e38eb639b2849f2ebe601c4484eaae74303f60f519bfdea579590ac124b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8324b1ecb302dacf744d3b3e73deb1d1cc05b5b187b48146081962604a5f667",
+				"dweb:/ipfs/QmPLDDbTaRMSVk7puTv56o3RpityS854PvPaDE1wxe5tew"
+			]
+		}
+	},
+	"version": 1
+}

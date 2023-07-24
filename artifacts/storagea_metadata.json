@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "store & retrieve value in a varible",
+			"kind": "dev",
+			"methods": {},
+			"title": "storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"storage.sol": "storagea"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"storage.sol": {
+			"keccak256": "0x834ea191c052b065daeae777c7b0ae72f5db2a341d2ead61ca3de12ac195f0eb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79e44593d87ec43500ed1667429ed2f548fe7b975d8118157fc38e8822bd3407",
+				"dweb:/ipfs/QmQ7Kz38Gi5crVd84196kZqMGJsBvgP46mf5xbTuajaY7a"
+			]
+		}
+	},
+	"version": 1
+}
