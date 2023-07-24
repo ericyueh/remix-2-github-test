@@ -9,7 +9,7 @@ contract Counter {
     }
 
     function increment() public {
-        count = count + 10;
+        count = count + 20;
     }
 
     function getCount() public view returns (uint) {
